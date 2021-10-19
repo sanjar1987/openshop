@@ -127,7 +127,9 @@ body {
         display: inline;
         background-color: white;
         font-size: 11px;
-        color: white !important;
+        position: absolute;
+        top: 12px;
+        right: 50px;
     }
 
     .fixed-top {
