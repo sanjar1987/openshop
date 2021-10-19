@@ -1,0 +1,150 @@
+@import url(./fonts.css);
+
+:root {
+    --not300: 'NotoSansDisplay-Light';
+    --not400: 'NotoSansDisplay-Regular';
+    --not500: 'NotoSansDisplay-Medium';
+    --not600: 'NotoSansDisplay-SemiBold';
+    --back: #313131;
+    --head: #0C0C0C;
+}
+
+body {
+    background-color: white;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 50px;
+    background-color: var(--back);
+}
+
+.list {
+    list-style: none;
+    display: flex;
+
+}
+
+.btnn {
+    text-decoration: none;
+    font-family: var(--not400);
+}
+
+#dropdownMenuLink {
+    background: var(--back);
+}
+
+.list_a {
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    font-family: var(--not400);
+    line-height: 20px;
+}
+
+.list_a:hover {
+    color: white;
+}
+
+#list_4 {
+    margin-left: 41.5px;
+}
+
+#list_3 {
+    margin-left: 32.5px;
+}
+
+#list_2 {
+    margin-left: 79.5px;
+}
+
+.icon {
+    color: white;
+    font-size: 15px;
+    margin: 7.5px;
+}
+
+.bottom {
+    margin-top: 25px;
+}
+
+.logo {
+    width: 187px;
+    height: 64px;
+}
+
+.form {
+    margin-left: 143px;
+}
+
+.form-control {
+    width: 440px;
+    height: 50px;
+    border-radius: 0px;
+    border: solid 2px var(--back);
+}
+
+.btn {
+    width: 190px;
+    height: 50px;
+    background-color: var(--back);
+    color: white;
+    border: solid 1px var(--back);
+    border-radius: 0px;
+}
+
+.navbar-toggler {
+    display: none;
+}
+
+.form {
+    width: 660px;
+    transition: .5s;
+}
+
+.intro {
+    margin-top: 15px;
+    list-style: none;
+}
+
+.intro_list {
+    text-decoration: none;
+    align-items: center;
+    color: var(--head);
+    font-family: var(--not400);
+    line-height: 70px;
+    font-size: 18px;
+}
+
+@media(max-width: 991px) {
+    .navbar-toggler {
+        display: inline;
+        background-color: white;
+        font-size: 11px;
+        color: white !important;
+    }
+
+    .fixed-top {
+        height: 50px;
+        background-color: var(--back);
+    }
+
+    .sirch {
+        appearance: none;
+        display: none;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .intr {
+        display: none;
+    }
+}
