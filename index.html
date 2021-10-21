@@ -50,11 +50,10 @@
             </div>
         </nav>
         <div class="container bottom">
-            <div class="row ">
-                <div class="col-3">
-                    <img src="./images/Logo1.png" class="col-2 logo" alt="">
+            <div class="row align-items-sm-center">
+                <div class="col-3 logo">
                 </div>
-                <div class="col-6">
+                <div class="col-6 mx-auto">
                     <form action="" class="d-flex mx-auto form">
                         <input class="form-control sirch" type="search" placeholder="what are you looking for?"
                             aria-label="Search">
@@ -124,9 +123,9 @@
 
                         </ul>
                         <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="What are you looking for?"
+                            <input class="form-control_ me-2" type="search" placeholder="What are you looking for?"
                                 aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
+                            <button class="btn_ btn-outline-success" type="submit">Search</button>
                         </form>
                     </div>
                 </div>
@@ -134,27 +133,88 @@
         </nav>
         <div class="container intr">
             <div class="intro d-flex col-xxl-10 mx-auto justify-content-sm-between">
-                <a class="intro_list" href="#!">
-                    <li>Cell Phones</li>
+                <a class="intro_list" href="#" data-bs-toggle="dropdown">
+                    Cell Phones
                 </a>
-                <a class="intro_list" href="#!">
+                <span class="dropdown-menu ">
+                    <span class="">
+                        <h6><a href="#" class="dropdown-title">Cell Phones</a></h6>
+                        <li><a href="#" class="dropdown-item">Xiaomi</a></li>
+                        <li><a href="#" class="dropdown-item">Apple</a></li>
+                        <li><a href="#" class="dropdown-item">Samsung</a></li>
+                        <li><a href="#" class="dropdown-item">Huawei</a></li>
+                        <li><a href="#" class="dropdown-item">BQ</a></li>
+                        <li><a href="#" class="dropdown-item">Nokia</a></li>
+                        <li><a href="#" class="dropdown-item">Inoi</a></li>
+                        <li><a href="#" class="dropdown-item">Vivo</a></li>
+                    </span>
+                    <span class="dropdown-span">
+                        <h6><a href="#" class="dropdown-title">Tablets</a></h6>
+                        <li><a href="#" class="dropdown-item">Xiaomi</a></li>
+                        <li><a href="#" class="dropdown-item">Apple</a></li>
+                        <li><a href="#" class="dropdown-item">Samsung</a></li>
+                        <li><a href="#" class="dropdown-item">Huawei</a></li>
+                        <li><a href="#" class="dropdown-item">BQ</a></li>
+                        <li><a href="#" class="dropdown-item">More...</a></li>
+                    </span>
+
+                </span>
+
+                <a class="intro_list" href="#">
                     <li>Computers&Laptop</li>
                 </a>
-                <a class="intro_list" href="#!">
+                <a class="intro_list" href="#">
                     <li>i Tv&Video</li>
                 </a>
-                <a class="intro_list" href="#!">
+                <a class="intro_list" href="#">
                     <li>Asseccories</li>
                 </a>
-                <a class="intro_list" href="#!">
+                <a class="intro_list" href="#">
                     <li>Home appliance</li>
                 </a>
-                <a class="intro_list" href="#!">
+                <a class="intro_list" href="#">
                     <li>Video Games&Consoles</li>
                 </a>
             </div>
         </div>
+
+        <div class="section apple">
+            <div class="container">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active carousel_btn" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            class="carousel_btn" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            class="carousel_btn" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner row ">
+                        <div class="left col-xl-6">
+                            <div class="carousel-item active">
+                                <img src="./images/1_1.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/1_2.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/1_3.png" class="d-block w-100 phone" alt="...">
+                            </div>
+                        </div>
+                        <div class="right d-flex flex-md-column justify-content-center align-items-sm-center col-xl-6">
+                            <a href="#!" class="apple_topic col-10 mx-auto">Color your days with small joy</a>
+                            <a href="#!" class="apple_title">SHOP NOW</a>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>  
     </header>
+
+
+    
+
 
     <script src="./lib/bootstrap.min.js"></script>
 </body>

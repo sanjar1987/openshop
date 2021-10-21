@@ -1,13 +1,48 @@
 @media (prefers-color-scheme: dark){
     :root{
-        --body: #151437;
-        --text: #fff;
-        --dots:#EBEBEB;
+        --back: #0C0C0C;
+        --text:#FFFFFF;
+        --body:#313131;
+        --btn: #313131;
+        --sch: #313131;
+        --border: #FFF;
     }
     body{
         background-color: var(--body);
     }
-    .logo::after{
-        content: url(../images/logo_dark.png);
+    /* .logo::after{
+        content: url(../images/Logo.png);
+    } */
+    .logo{
+        background-image: url(../images/Logo.png);
+    }
+}
+
+@media(max-width: 991px) {
+    .navbar-toggler {
+        display: inline;
+        background-color: white;
+        font-size: 11px;
+        position: absolute;
+        top: 12px;
+        right: 3%;
+    }
+
+    .fixed-top {
+        height: 50px;
+        background-color: var(--back);
+    }
+
+    .sirch {
+        appearance: none;
+        display: none;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .intr {
+        display: none;
     }
 }

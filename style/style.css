@@ -6,12 +6,16 @@
     --not500: 'NotoSansDisplay-Medium';
     --not600: 'NotoSansDisplay-SemiBold';
     --back: #313131;
-    --head: #0C0C0C;
+    --body: #E5E5E5;
+    --text: #000000;
+    --btn: #313131;
+    --sch: #fff;
+    --border: #313131;
 }
 
 body {
     background-color: white;
-
+    background-color: var(--body);
 }
 
 * {
@@ -77,6 +81,8 @@ body {
 .logo {
     width: 187px;
     height: 64px;
+    background-image: url(../images/Logo1.png);
+    /* margin-right: 143px; */
 }
 
 .form {
@@ -87,16 +93,38 @@ body {
     width: 440px;
     height: 50px;
     border-radius: 0px;
-    border: solid 2px var(--back);
+    border: solid 2px var(--border);
+    background-color: var(--sch);
 }
-
+.form-control_{
+    width: 440px;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 0px;
+    border: 1px solid #313131;
+    background-color: #fff;
+}
 .btn {
     width: 190px;
     height: 50px;
-    background-color: var(--back);
+    background-color: var(--btn);
     color: white;
-    border: solid 1px var(--back);
+    border: solid 1px var(--border);
     border-radius: 0px;
+}
+.btn_{
+    width: 190px;
+    height: 50px;
+    background: #313131;
+    color: white;
+    border: solid 1px var(--border);
+    border-radius: 0px;
+    font-family: var(--not400);
+    font-size: 14px;
+}
+.btn:hover{
+    background-color: var(--btn);
+    border: solid 1px var(--border);
 }
 
 .navbar-toggler {
@@ -111,42 +139,96 @@ body {
 .intro {
     margin-top: 15px;
     list-style: none;
+    height: 35px;
 }
 
 .intro_list {
     text-decoration: none;
     align-items: center;
-    color: var(--head);
+    color: var(--text);
     font-family: var(--not400);
-    line-height: 70px;
+    line-height: 20px;
     font-size: 18px;
+    transition: .2s;
 }
 
-@media(max-width: 991px) {
-    .navbar-toggler {
-        display: inline;
-        background-color: white;
-        font-size: 11px;
-        position: absolute;
-        top: 12px;
-        right: 50px;
-    }
+/* apple start */
+.apple{
+    margin-top: 50px;
+}
+.left{
+    width: 630px;
+    height: 550px;
+    overflow: hidden;
+}
+.phone{
+    padding: 50px 100px 80px 100px;
+}
+.apple_topic{
+    font-family: var(--not600);
+    font-size: 48px;
+    line-height: 70px;
+    color: var(--text);
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 121px;
+}
+.apple_title{
+    font-family: var(--not400);
+    font-size: 18px;
+    color: var(--sch);
+    padding: 13px 46px;
+    text-decoration: none;
+    background-color: var(--btn);
+    border: var(--border);
+}
+.carousel_btn{
+    background-color: #ABABAB !important;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+}
+.carousel_btn:active{
+    transform: scale(1.5);
+    background-color: var(--text) !important;
+}
 
-    .fixed-top {
-        height: 50px;
-        background-color: var(--back);
-    }
-
-    .sirch {
-        appearance: none;
-        display: none;
-    }
-
-    .logo {
-        text-align: center;
-    }
-
-    .intr {
-        display: none;
-    }
+.dropdown-toggle{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+}
+.dropdown-menu{
+    background: var(--body);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+    width: 270px;
+    position: relative;
+    padding-top: 10px;
+}
+.dropdown-title{
+    text-decoration: none;
+    color: var(--text);
+    font-family: var(--not400);
+    font-size: 16px;
+    margin-left: 15px;
+}
+.dropdown-span{
+    margin-top: 10px;
+}
+.dropdown-title:hover{
+    border-bottom: 1px solid black;
+}
+.dropdown-item{
+    font-family: var(--not300);
+    color: var(--text);
+    font-size: 14px;
+    line-height: 14px;
+}
+.intro_list:focus{
+    border-bottom: 3px solid black;    
+    border-color: var(--text);
+}
+.dropdown-span{
+    position: absolute;
+    top: 0;
+    right: 10px;
 }
