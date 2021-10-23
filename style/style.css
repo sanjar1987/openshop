@@ -262,6 +262,7 @@ p {
 /* watch start */
 .watchs {
     margin-top: 86px;
+    position: relative;
 }
 
 
@@ -300,7 +301,7 @@ p {
 }
 .airpods{
     filter: drop-shadow(-10px 0px 4px rgba(0, 0, 0, 0.15));
-
+    position: relative;
 }
 .airpods img{
     height: 100%;
@@ -332,7 +333,7 @@ p {
 }
 .power-bank{
     filter: drop-shadow(-10px 0px 4px rgba(0, 0, 0, 0.15));
-
+    position: relative;
 }
 .power-bank img{
     height: 100%;
@@ -364,7 +365,7 @@ p {
 }
 .remax{
     filter: drop-shadow(-10px 0px 4px rgba(0, 0, 0, 0.15));
-
+    position: relative;
 }
 .remax img{
     height: 100%;
