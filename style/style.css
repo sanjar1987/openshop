@@ -11,6 +11,8 @@
     --btn: #313131;
     --sch: #fff;
     --border: #313131;
+    --text2: #000000;
+    --text3: #fff;
 }
 
 body {
@@ -192,7 +194,7 @@ p {
 .apple_title {
     font-family: var(--not400);
     font-size: 18px;
-    color: var(--sch);
+    color: var(--text3);
     padding: 13px 46px;
     text-decoration: none;
     background-color: var(--btn);
@@ -268,16 +270,16 @@ p {
 
 .watch {
     filter: drop-shadow(-10px 5px 4px rgba(0, 0, 0, 0.25));
-    /* height: 500px; */
 }
-.watch img{
-    height: 100%;
+.img{
+    position: absolute;
     width: 100%;
+    height: 100%;
 }
 .watch p {
     position: absolute;
     top: 20px;
-    left: 20px;
+    left: 30px;
     font-family: var(--not400);
     font-size: 20px;
     background: #313131;
@@ -292,21 +294,18 @@ p {
 
 .watch h5 {
     position: absolute;
-    bottom: 0px;
-    left: 20px;
+    bottom: 15px;
+    left: 30px;
     font-family: var(--not500);
     font-size: 24px;
     line-height: 40px;
-    color: var(--text);
+    color: var(--text2);
 }
 .airpods{
     filter: drop-shadow(-10px 0px 4px rgba(0, 0, 0, 0.15));
     position: relative;
 }
-.airpods img{
-    height: 100%;
-    width: 100%;
-}
+
 .airpods p{
     position: absolute;
     top: 20px;
@@ -329,20 +328,24 @@ p {
     left: 20px;
     font-family: var(--not500);
     font-size: 24px;
-    color: var(--text);
+    color: var(--text2);
+}
+.power_box{
+    margin-top: 18px;
 }
 .power-bank{
     filter: drop-shadow(-10px 0px 4px rgba(0, 0, 0, 0.15));
     position: relative;
 }
-.power-bank img{
-    height: 100%;
-    width: 100%;
+.image{
+    position: absolute;
+    bottom: -2px;
+    right: 10px;
 }
 .power-bank p{    
     position: absolute;
     bottom: 15px;
-    left: 20px;
+    left: 30px;
     font-family: var(--not400);
     font-size: 20px;
     line-height: 70px;
@@ -358,23 +361,20 @@ p {
 .power-bank h5{
     position: absolute;
     top: 15px;
-    left: 20px;
+    left: 30px;
     font-family: var(--not500);
     font-size: 24px;
-    color: var(--text);
+    color: var(--text2);
 }
 .remax{
     filter: drop-shadow(-10px 0px 4px rgba(0, 0, 0, 0.15));
     position: relative;
 }
-.remax img{
-    height: 100%;
-    width: 100%;
-}
+
 .remax p{    
     position: absolute;
     bottom: 15px;
-    left: 20px;
+    left: 30px;
     font-family: var(--not400);
     font-size: 20px;
     line-height: 70px;
@@ -390,12 +390,118 @@ p {
 .remax h5{
     position: absolute;
     top: 15px;
-    left: 20px;
+    left: 30px;
     font-family: var(--not500);
     font-size: 24px;
-    color: var(--text);
+    color: var(--text2);
 }
 .watch_title{
     margin-top: 42px;
     text-align: center;
 }
+
+.watch img{
+    width: 100%;
+}
+.airpods img{
+    width: 100%;
+}
+.power-bank img{
+    width: 100%;
+}
+.remax img{
+    width: 100%;
+}
+
+
+/* cell-phone start */
+.cell-phone{
+    margin-top: 70px;  
+    margin-bottom: 70px;  
+}
+.each_title{
+    color: var(--text);
+}
+.cell-box{
+    margin-top: 30px;
+}
+.CP_box{
+    height: 300px;
+    background-image: url(../images/cp1.png);
+    padding-bottom: 28px;
+    background-position: center;
+    text-align: center;  
+    display: flex;
+    flex-direction: column;
+    justify-content: end;  
+}
+.CP_box span{
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(39.9% 39.9% at 50% 38.67%, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%);
+}
+.CP_2{
+    background-image: url(../images/cp2.png);
+}
+.CP_3{
+    background-image: url(../images/cp3.png);
+}
+.CP_4{
+    background-image: url(../images/cp4.png);
+}
+.CP_box_p{
+    font-family: var(--not500);
+    color: var(--text);
+    font-size: 16px;
+    line-height: 22px;
+
+}
+.CP_box_lp{
+    font-family: var(--not300);
+    color: var(--text);
+    font-size: 18px;
+    line-height: 20px;
+}
+
+/* computer start */
+.laptops{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.comp_box{
+    height: 300px;
+    background-image: url(../images/laptop1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 17px;
+}
+.comp_box span{
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+}
+.comp_text{
+    font-family: var(--not400);
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--text);
+    text-align: center;
+}
+.copm_text2{
+    font-family: var(--not300);
+    font-size: 14px;
+    color: var(--text);
+}
+.comp_box2{
+    background-image: url(../images/laptop2.png);
+}
+.comp_box3{
+    background-image: url(../images/laptop3.png);
+}
+.comp_box4{
+    background-image: url(../images/laptop4.png);
+
