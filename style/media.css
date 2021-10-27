@@ -17,35 +17,71 @@
     .logo {
         background-image: url(../images/Logo.png);
     }
+
     .apple_title {
         font-family: var(--not400);
         font-size: 18px;
-        color: ;
         padding: 13px 46px;
         text-decoration: none;
-        background-color: ;
         border: 1px solid #FFFFFF;
         box-sizing: border-box;
 
     }
 }
-@media(max-width:1400px){
-    .comp_box{
+
+@media(max-width:1400px) {
+    .comp_box {
         background-size: 95%;
     }
+
+    .seller_box {
+        height: 300px;
+    }
 }
-@media(max-width:1200px){
+
+@media(max-width:1200px) {
     .airpods h5 {
         font-size: 20px;
         bottom: 10px;
     }
-    .power-bank h5{
+
+    .power-bank h5 {
         font-size: 20px;
     }
-    .remax h5{
+
+    .remax h5 {
         font-size: 20px;
+    }
+
+    .PS {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .ps_text {
+        margin-bottom: 0px;
+    }
+    .seller_box {
+        height: 270px;
+    }
+    .comp_box{
+        height: 270px;
+    }
+
+    .seller_boxs {
+        overflow-x: auto;
+        overflow: hidden;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: green;
+    }
+
+    ::-webkit-scrollbar {
+        height: 2px;
     }
 }
+
 @media(max-width: 991px) {
     .navbar-toggler {
         display: inline;
@@ -81,21 +117,60 @@
     .apple_topic {
         margin-top: 50px;
     }
+
     .airpods h5 {
         font-size: 22px;
         bottom: 15px;
     }
-    .power-bank h5{
+
+    .power-bank h5 {
         font-size: 22px;
     }
-    .remax h5{
+
+    .remax h5 {
         font-size: 22px;
     }
+
     .airpods {
         margin-top: 10px;
     }
-    .comp_box{
+
+    .comp_box {
         background-size: 100%;
+    }
+
+    .ps_text {
+        text-align: center;
+    }
+
+    .ps_title {
+        text-align: center;
+        height: 50px;
+    }
+    .seller_box {
+        height: 330px;
+    }
+    .seller_box4,
+    .seller_box3{
+        margin-top: 20px;
+    }
+    .footer{
+        height: 100%;
+    }
+    .footer_search{
+        /* width: 50px; */
+    }
+    .Foooter_right a{
+        margin-left: 0;
+        margin-right: 40px;
+        margin-top: 25px;
+    }
+    .footer_titles{
+        justify-content: start; 
+        margin-bottom: 40px;      
+    }
+    .footer_title{
+         margin-right: 35px;
     }
 }
 
@@ -111,6 +186,19 @@
 
     .carousel-indicators {
         margin-bottom: 290px !important;
+    }
+    .seller_box {
+        height: 300px;
+    }
+    .comp_box{
+        height: 250px;
+    }
+    .Foooter_right i{
+        font-size: 45px;
+
+    }
+    .Foooter_right a{
+        margin-right: 45px;
     }
 }
 
@@ -134,21 +222,28 @@
         font-size: 40px;
         line-height: 55px;
     }
+    .seller_box {
+        height: 270px;
+    }
 }
-@media(max-width:530px){
-    .watch h5{
+
+@media(max-width:530px) {
+    .watch h5 {
         font-size: 19px;
     }
-    .watch p{
+
+    .watch p {
         font-size: 18px;
         width: 60px;
         height: 60px;
     }
+
     .airpods h5 {
         font-size: 19px;
         bottom: 15px;
         left: 15px;
     }
+
     .airpods p {
         font-size: 18px;
         line-height: 70px;
@@ -157,17 +252,20 @@
         top: 15px;
         left: 15px;
     }
-    .power-bank h5{
+
+    .power-bank h5 {
         font-size: 19px;
         top: 15px;
         left: 15px;
     }
-    .remax h5{
+
+    .remax h5 {
         font-size: 19px;
         top: 15px;
         left: 15px;
     }
-    .power-bank p  {
+
+    .power-bank p {
         bottom: 15px;
         left: 15px;
         font-size: 18px;
@@ -175,6 +273,7 @@
         width: 60px;
         height: 60px;
     }
+
     .power-bank p {
         left: 15px;
         font-size: 18px;
@@ -182,6 +281,7 @@
         width: 60px;
         height: 60px;
     }
+
     .remax p {
         left: 15px;
         font-size: 18px;
@@ -189,24 +289,38 @@
         width: 60px;
         height: 60px;
     }
+
     .power-bank p {
         left: 20px;
     }
-    .remax{
+
+    .remax {
         padding-left: 5px;
     }
-    .power-bank h5{
+
+    .power-bank h5 {
         left: 20px;
     }
-    
+    .seller_box {
+        height: 240px;
+    }
+    .text{
+        font-size: 14px;
+    }
+    .comp_box{
+        height: 230px;
+    }
+
 }
-@media(max-width: 470px){
-    .watch p{
+
+@media(max-width: 470px) {
+    .watch p {
         font-size: 16px;
         line-height: 0px;
         width: 50px;
         height: 50px;
     }
+
     .airpods p {
         font-size: 16px;
         line-height: 0px;
@@ -215,6 +329,7 @@
         top: 10px;
         left: 10px;
     }
+
     .power-bank p {
         font-size: 16px;
         line-height: 0px;
@@ -223,7 +338,8 @@
         bottom: 10px;
         left: 10;
     }
-    .remax p{
+
+    .remax p {
         font-size: 16px;
         line-height: 0px;
         width: 50px;
@@ -231,36 +347,56 @@
         bottom: 10px;
         left: 10px;
     }
-    .watch h5{
+
+    .watch h5 {
         font-size: 17px;
-        line-height: 25px; 
+        line-height: 25px;
     }
-    .airpods h5{
+
+    .airpods h5 {
         font-size: 17px;
         bottom: 10px;
         left: 10px;
     }
-    .power-bank h5{
+
+    .power-bank h5 {
         font-size: 17px;
         top: 10px;
         left: 10px;
     }
-    .remax h5{
+
+    .remax h5 {
         font-size: 17px;
         top: 10px;
         left: 10px;
     }
-    .watch h5{
+
+    .watch h5 {
         bottom: 10px;
     }
+
     .power-bank p {
         left: 20px;
     }
-    .remax{
+
+    .remax {
         padding-left: 5px;
     }
-    .power-bank h5{
+
+    .power-bank h5 {
         left: 20px;
+    }
+    .seller_box {
+        height: 210px;
+    }
+    .text{
+        font-size: 12px;
+    }
+    .text2{
+        font-size: 11px;
+    }
+    .comp_box{
+        height: 210px;
     }
 }
 
@@ -281,12 +417,13 @@
         margin: 0 auto;
     }
 
-    .watch p{
+    .watch p {
         font-size: 12px;
         line-height: 0px;
         width: 40px;
         height: 40px;
     }
+
     .airpods p {
         font-size: 12px;
         line-height: 0px;
@@ -295,6 +432,7 @@
         top: 10px;
         left: 10px;
     }
+
     .power-bank p {
         font-size: 12px;
         line-height: 0px;
@@ -303,7 +441,8 @@
         bottom: 10px;
         left: 10px;
     }
-    .remax p{
+
+    .remax p {
         font-size: 12px;
         line-height: 0px;
         width: 40px;
@@ -311,53 +450,88 @@
         bottom: 10px;
         left: 10px;
     }
-    .watch h5{
+
+    .watch h5 {
         font-size: 13px;
-        line-height: 20px; 
+        line-height: 20px;
     }
-    .airpods h5{
+
+    .airpods h5 {
         font-size: 13px;
         bottom: 10px;
         left: 10px;
     }
-    .power-bank h5{
+
+    .power-bank h5 {
         font-size: 13px;
     }
-    .remax h5{
+
+    .remax h5 {
         font-size: 13px;
     }
+
     .watchs {
         margin-top: 26px;
     }
-    .watch_title{
+
+    .watch_title {
         margin-top: 32px;
     }
+
     .power-bank p {
         left: 20px;
     }
-    .remax{
+
+    .remax {
         padding-left: 5px;
     }
-    .power-bank h5{
+
+    .power-bank h5 {
         left: 20px;
     }
+    .seller_box {
+        height: 190px;
+    }
+    .comp_box{
+        height: 190px;
+    }
+    .comp_text{
+        line-height: 12px;
+    }
 }
-@media(max-width: 355px){
+
+@media(max-width: 355px) {
     .apple_topic {
         font-size: 30px;
         line-height: 45px;
     }
-    .watch_title{
+
+    .watch_title {
         margin-top: 20px;
     }
+
     .power-bank p {
         left: 20px;
     }
-    .remax{
+
+    .remax {
         padding-left: 5px;
     }
-    .power-bank h5{
+
+    .power-bank h5 {
         left: 20px;
+    }
+    .seller_box {
+        height: 170px;
+    }
+    .text{
+        font-size: 10px;
+    }
+    .text2{
+        font-size: 9px;
+    }
+    .comp_box{
+        height: 170px;
     }
 }
 
@@ -367,6 +541,7 @@
         font-size: 25px;
         line-height: 35px;
     }
+
     .apple_title {
         font-size: 11px;
         width: 130px;
@@ -377,16 +552,18 @@
     .carousel-indicators {
         margin-bottom: 140px !important;
     }
-    #bot{
+
+    #bot {
         margin: 0 15px;
     }
 
-    .watch p{
+    .watch p {
         font-size: 12px;
         line-height: 0px;
         width: 40px;
         height: 40px;
     }
+
     .airpods p {
         font-size: 12px;
         line-height: 0px;
@@ -395,6 +572,7 @@
         top: 10px;
         left: 10px;
     }
+
     .power-bank p {
         font-size: 12px;
         line-height: 0px;
@@ -403,7 +581,8 @@
         bottom: 10px;
         left: 20px;
     }
-    .remax p{
+
+    .remax p {
         font-size: 12px;
         line-height: 0px;
         width: 40px;
@@ -411,28 +590,35 @@
         bottom: 10px;
         left: 10px;
     }
-    .watch h5{
+
+    .watch h5 {
         font-size: 13px;
-        line-height: 20px; 
+        line-height: 20px;
     }
-    .airpods h5{
+
+    .airpods h5 {
         font-size: 13px;
         bottom: 10px;
         left: 10px;
     }
-    
-    .power-bank h5{
+
+    .power-bank h5 {
         font-size: 11px;
         margin-left: 10px;
     }
-    .remax{
+
+    .remax {
         padding-left: 5px;
     }
-    .remax h5{
+
+    .remax h5 {
         font-size: 11px;
     }
+
     .watchs {
         margin-top: 26px;
     }
-  
+    .seller_box {
+        height: 150px;
+    }
 }
