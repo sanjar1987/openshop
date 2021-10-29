@@ -1,0 +1,159 @@
+@media(max-width:1200px) {
+    .promax_apple{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media(max-width:992px) {
+    .promax_right {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .promax_left {
+        margin-left: 30%;
+    }
+}
+
+@media(max-width:992px) {
+    .promax {
+        margin-top: 60px;
+    }
+    .promax_title {
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 15px;
+    }
+
+    .promax_price {
+        font-size: 24px;
+        line-height: 40px;
+        margin-top: 10px;
+    }
+
+    .Plastation_title {
+        font-size: 38px;
+        line-height: 45px;
+        margin-top: 10px;
+    }
+
+    .Plastation_text {
+        font-family: var(--not400);
+        font-size: 24px;
+        line-height: 32px;
+        color: var(--text);
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width:768px) {
+    .promax {
+        margin-top: 30px;
+    }
+}
+@media(max-width:440px) {
+    .promax {
+        margin-top: 20px;
+    }
+    .promax_a {
+        margin-right: 10px;
+    }
+
+    .promax_title {
+        font-size: 25px;
+        line-height: 30px;
+        margin-top: 15px;
+    }
+
+    .promax_price {
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 10px;
+    }
+
+    .Plastation_title {
+        font-size: 25px;
+        line-height: 30px;
+        margin-top: 5px;
+    }
+
+    .Plastation_text {
+        font-family: var(--not400);
+        font-size: 20px;
+        line-height: 27px;
+        color: var(--text);
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width:370px) {
+    .promax {
+        margin-top: 10px;
+    }
+    .promax_a {
+        padding: 13px 30px;
+    }
+}
+
+@media(max-width:320px) {
+    .promax {
+        margin-top: 10px;
+    }
+    .promax_a {
+        padding: 13px 30px;
+    }
+
+    .promax_title {
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 15px;
+    }
+
+    .promax_price {
+        font-size: 17px;
+        line-height: 20px;
+        margin-top: 7px;
+    }
+
+    .promax_product {
+        font-size: 17px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .promax_text {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .Plastation_title {
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 5px;
+    }
+
+    .Plastation_text {
+        font-family: var(--not400);
+        font-size: 17px;
+        line-height: 22px;
+        color: var(--text);
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+}
+
+/* <div class="col-1 d-flex flex-md-column justify-content-sm-evenly promax_left">
+                    <img src="./images/1_3_1.png" alt="">
+                    <img src="./images/1_3_2.png" alt="">
+                    <img src="./images/1_3_3.png" alt="">
+                </div>
+                <div class="col-4 col-lg-5 col-xl-5 col-xxl-4 d-flex flex-md-column justify-content-center">
+                    <img src="./images/1_3.png" alt="">
+                </div> */

@@ -1,0 +1,81 @@
+@media(max-width:1200px){
+    .xbox_title {
+        font-size: 40px;
+        line-height: 55px;
+        top: 0;
+    }
+    
+    .xbox_text {
+        font-size: 20px;
+        line-height: 32px;
+        top: 50px;
+    }
+}
+@media(max-width:991px){
+    .xbox_title {
+        font-size: 30px;
+        line-height: 45px;
+        top: 0;
+    }
+    
+    .xbox_text {
+        font-size: 16px;
+        line-height: 20px;
+        top: 40px;
+    }
+}
+@media(max-width:770px){
+    .xbox_title {
+        font-size: 20px;
+        line-height: 32px;
+        top: 0;
+    }
+    
+    .xbox_text {
+        font-size: 12px;
+        line-height: 12px;
+        top: 30px;
+    }
+}
+@media(max-width:470px){
+    .xbox_title {
+        font-size: 15px;
+        line-height: 22px;
+        top: 0;
+    }
+    
+    .xbox_text {
+        font-size: 9px;
+        line-height: 10px;
+        top: 23px;
+    }
+}
+@media(max-width:400px){
+    
+    .xbox_text {
+        font-size: 8px;
+        line-height: 10px;
+        top: 23px;
+    }
+}
+@media(max-width:355px){
+    
+    .xbox_text {
+        font-size: 7px;
+        line-height: 8px;
+        top: 20px;
+    }
+}
+@media(max-width:320px){
+    .xbox_title {
+        font-size: 13px;
+        line-height: 20px;
+        top: 0;
+    }
+    
+    .xbox_text {
+        font-size: 6px;
+        line-height: 7px;
+        top: 18px;
+    }
+}

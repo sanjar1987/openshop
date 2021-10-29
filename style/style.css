@@ -582,11 +582,6 @@ p {
 /* seller start */
 .seller {
     margin-top: 70px;
-    margin-bottom: 70px;
-}
-
-.seller_title {
-    margin-bottom: 30px;
 }
 
 .seller_box {
@@ -633,6 +628,24 @@ p {
     text-align: center;
 }
 
+/* next start */
+.next{
+    height: 100px;
+}
+.next_page{
+    text-align: center;    
+}
+.next_page a{
+    text-decoration: none;
+    font-family: var(--not400);
+    font-size: 18px;
+    color: #ABABAB;
+    margin: 0 15px 0 15px;
+}
+.next_page a:hover{
+    color: black;
+    font-family: var(--not600);
+}
 /* footer start */
 .footer {
     background-color: var(--back);
@@ -695,4 +708,10 @@ p {
     color: white;
     font-family: var(--not400);
     font-size: 18px;    
+}
+.next_page{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

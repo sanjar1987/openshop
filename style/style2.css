@@ -1,0 +1,104 @@
+@import url(./fonts.css);
+
+:root {
+    --not300: 'NotoSansDisplay-Light';
+    --not400: 'NotoSansDisplay-Regular';
+    --not500: 'NotoSansDisplay-Medium';
+    --not600: 'NotoSansDisplay-SemiBold';
+    --back: #313131;
+    --body: #E5E5E5;
+    --text: #000000;
+    --btn: #313131;
+    --sch: #fff;
+    --border: #313131;
+    --text2: #000000;
+    --text3: #fff;
+}
+
+body {
+    background-color: white;
+    /* background-color: var(--body); */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.samsumg_box {
+    background-image: url(../images/samsung1.png);
+}
+
+.samsumg_box2 {
+    background-image: url(../images/samsung2.png);
+}
+
+.samsumg_box3 {
+    background-image: url(../images/samsung3.png);
+}
+
+.samsumg_box4 {
+    background-image: url(../images/samsung4.png);
+}
+
+.Xiaomi_box {
+    background-image: url(../images/xiaomi1.png);
+}
+
+.Xiaomi_box2 {
+    background-image: url(../images/xiaomi2.png);
+}
+
+.Xiaomi_box3 {
+    background-image: url(../images/xiaomi3.png);
+}
+
+.Xiaomi_box4 {
+    background-image: url(../images/xiaomi4.png);
+}
+
+/* cotroler start */
+
+.xbox_title {
+    position: absolute;
+    font-family: var(--not600);
+    font-size: 48px;
+    line-height: 65px;
+    color: var(--text);
+    top: 0;
+}
+
+.xbox_text {
+    position: absolute;
+    font-family: var(--not400);
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--text);
+    top: 60px;
+}
+
+.background_img{
+    position: absolute;
+    width: 100%;
+    height: 39%;
+    background-color: #E3E3E3;
+    bottom: 0;
+    z-index: -1;
+}
+.controler{
+    position: relative;
+}
+.controler_img{
+    width: 100%;
+}

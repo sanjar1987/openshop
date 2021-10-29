@@ -1,0 +1,137 @@
+@import url(./fonts.css);
+
+:root {
+    --not300: 'NotoSansDisplay-Light';
+    --not400: 'NotoSansDisplay-Regular';
+    --not500: 'NotoSansDisplay-Medium';
+    --not600: 'NotoSansDisplay-SemiBold';
+    --back: #313131;
+    --body: #E5E5E5;
+    --text: #000000;
+    --btn: #313131;
+    --sch: #fff;
+    --border: #313131;
+    --text2: #000000;
+    --text3: #fff;
+}
+
+body {
+    background-color: white;
+    /* background-color: var(--body); */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.promax {
+    margin-top: 70px;
+}
+
+.promax_title {
+    font-family: var(--not600);
+    font-size: 30px;
+    line-height: 70px;
+    color: var(--text);
+}
+
+.promax_price {
+    font-family: var(--not500);
+    font-size: 24px;
+    line-height: 70px;
+    color: var(--text);
+    margin-top: 10px;
+}
+
+.promax_apples {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.promax_apples img{
+    width: 100%;
+}
+
+.promax_apple img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.promax_product {
+    font-family: var(--not500);
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--text);
+    margin-bottom: 10px;
+}
+
+.promax_text {
+    font-family: var(--not400);
+    font-size: 14px;
+    line-height: 25px;
+    color: var(--text);
+}
+
+.promax_list {
+    margin-bottom: 40px;
+}
+
+ul {
+    padding-left: 1.2rem;
+}
+
+.cart {
+    margin-right: 11.5px;
+}
+
+.promax_a {
+    margin-right: 30px;
+}
+
+/* Plastation start */
+.Plastation {
+    margin-top: 70px;
+}
+
+.Plastation_title {
+    font-family: var(--not600);
+    font-size: 48px;
+    line-height: 65px;
+    color: var(--text);
+    margin-top: 20px;
+}
+
+.Plastation_text {
+    font-family: var(--not400);
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--text);
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 116px;
+}
+
+.playstation_a {
+    margin-left: 28%;
+}
+
+.Plastation_div {
+    position: relative;
+}
+
+.playstation_img {
+    width: 100%;
+}
