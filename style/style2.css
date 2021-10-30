@@ -15,10 +15,6 @@
     --text3: #fff;
 }
 
-body {
-    background-color: white;
-    /* background-color: var(--body); */
-}
 
 * {
     margin: 0;

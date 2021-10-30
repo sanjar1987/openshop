@@ -27,6 +27,20 @@
         box-sizing: border-box;
 
     }
+
+    .next_page a:hover {
+        color: white;
+        font-family: var(--not600);
+    }
+
+    li:hover {
+        color: white;
+    }
+
+    a:hover {
+        color: white;
+    }
+
 }
 
 @media(max-width:1400px) {
@@ -61,10 +75,12 @@
     .ps_text {
         margin-bottom: 0px;
     }
+
     .seller_box {
         height: 270px;
     }
-    .comp_box{
+
+    .comp_box {
         height: 270px;
     }
 
@@ -73,708 +89,801 @@
         overflow: hidden;
     }
 
-@media(max-width: 991px) {
-    .navbar-toggler {
-        display: inline;
-        background-color: white;
-        font-size: 11px;
-        position: absolute;
-        top: 12px;
-        right: 3%;
+    .CP_1 {
+        padding-bottom: 0;
+    }
+
+    @media(max-width: 991px) {
+        .navbar-toggler {
+            display: inline;
+            background-color: white;
+            font-size: 11px;
+            position: absolute;
+            top: 12px;
+            right: 3%;
+        }
+
+        .CP_1 {
+            padding-bottom: 28px;
+        }
+
+        .fixed-top {
+            height: 50px;
+            background-color: var(--back);
+        }
+
+        .sirch {
+            appearance: none;
+            display: none;
+        }
+
+        .logo {
+            text-align: center;
+        }
+
+        .intr {
+            display: none;
+        }
+
+        .carousel-indicators {
+            margin-bottom: 320px !important;
+        }
+
+        .apple_topic {
+            margin-top: 50px;
+        }
+
+        .airpods h5 {
+            font-size: 22px;
+            bottom: 15px;
+        }
+
+        .power-bank h5 {
+            font-size: 22px;
+        }
+
+        .remax h5 {
+            font-size: 22px;
+        }
+
+        .airpods {
+            margin-top: 10px;
+        }
+
+        .comp_box {
+            background-size: 100%;
+        }
+
+        .ps_text {
+            text-align: center;
+        }
+
+        .ps_title {
+            text-align: center;
+            height: 50px;
+        }
+
+        .seller_box {
+            height: 330px;
+        }
+
+        .seller_box4,
+        .seller_box3 {
+            margin-top: 20px;
+        }
+
+        .footer {
+            height: 100%;
+        }
+
+        .Foooter_right a {
+            margin-left: 0;
+            margin-right: 40px;
+            margin-top: 25px;
+        }
+
+        .footer_titles {
+            justify-content: start;
+            margin-bottom: 40px;
+        }
+
+        .footer_title {
+            margin-right: 35px;
+        }
+    }
+
+    @media(max-width: 770px) {
+        .apple_topic {
+            margin-bottom: 70px;
+        }
+
+        .right {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .carousel-indicators {
+            margin-bottom: 290px !important;
+        }
+
+        .seller_box {
+            height: 300px;
+        }
+
+        .comp_box {
+            height: 250px;
+        }
+
+        .Foooter_right i {
+            font-size: 45px;
+
+        }
+
+        .Foooter_right a {
+            margin-right: 45px;
+        }
+    }
+
+    @media(max-width: 580px) {
+        .apple_title {
+            width: 190px;
+            margin: 0 auto;
+        }
+
+        .apple {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .carousel-indicators {
+            margin-bottom: 200px !important;
+        }
+
+        .apple_topic {
+            margin: 10px 0 30px;
+            font-size: 40px;
+            line-height: 55px;
+        }
+
+        .seller_box {
+            height: 270px;
+        }
+    }
+
+    @media(max-width:530px) {
+        .watch h5 {
+            font-size: 19px;
+        }
+
+        .watch p {
+            font-size: 18px;
+            width: 60px;
+            height: 60px;
+        }
+
+        .airpods h5 {
+            font-size: 19px;
+            bottom: 15px;
+            left: 15px;
+        }
+
+        .airpods p {
+            font-size: 18px;
+            line-height: 70px;
+            width: 60px;
+            height: 60px;
+            top: 15px;
+            left: 15px;
+        }
+
+        .power-bank h5 {
+            font-size: 19px;
+            top: 15px;
+            left: 15px;
+        }
+
+        .remax h5 {
+            font-size: 19px;
+            top: 15px;
+            left: 15px;
+        }
+
+        .power-bank p {
+            bottom: 15px;
+            left: 15px;
+            font-size: 18px;
+            line-height: 70px;
+            width: 60px;
+            height: 60px;
+        }
+
+        .power-bank p {
+            left: 15px;
+            font-size: 18px;
+            line-height: 70px;
+            width: 60px;
+            height: 60px;
+        }
+
+        .remax p {
+            left: 15px;
+            font-size: 18px;
+            line-height: 50px;
+            width: 60px;
+            height: 60px;
+        }
+
+        .power-bank p {
+            left: 20px;
+        }
+
+        .remax {
+            padding-left: 5px;
+        }
+
+        .power-bank h5 {
+            left: 20px;
+        }
+
+        .seller_box {
+            height: 240px;
+        }
+
+        .text {
+            font-size: 14px;
+        }
+
+        .comp_box {
+            height: 230px;
+        }
+
+        .Foooter_left img {
+            width: 150px;
+        }
+
+        .Foooter_center p {
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        .footer_search {
+            height: 45px;
+        }
+
+        .footer_btn {
+            height: 45px;
+            font-size: 16px;
+        }
+
+        .Foooter_right i {
+            font-size: 45px;
+        }
+
+        .fcbk {
+            font-size: 40px !important;
+        }
+
+        .footer_titles {
+            margin-top: 20px;
+        }
+
+        .footer_title {
+            font-size: 16px;
+        }
+    }
+
+    @media(max-width: 470px) {
+        .watch p {
+            font-size: 16px;
+            line-height: 0px;
+            width: 50px;
+            height: 50px;
+        }
+
+        .airpods p {
+            font-size: 16px;
+            line-height: 0px;
+            width: 50px;
+            height: 50px;
+            top: 10px;
+            left: 10px;
+        }
+
+        .power-bank p {
+            font-size: 16px;
+            line-height: 0px;
+            width: 50px;
+            height: 50px;
+            bottom: 10px;
+            left: 10;
+        }
+
+        .remax p {
+            font-size: 16px;
+            line-height: 0px;
+            width: 50px;
+            height: 50px;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .watch h5 {
+            font-size: 17px;
+            line-height: 25px;
+        }
+
+        .airpods h5 {
+            font-size: 17px;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .power-bank h5 {
+            font-size: 17px;
+            top: 10px;
+            left: 10px;
+        }
+
+        .remax h5 {
+            font-size: 17px;
+            top: 10px;
+            left: 10px;
+        }
+
+        .watch h5 {
+            bottom: 10px;
+        }
+
+        .power-bank p {
+            left: 20px;
+        }
+
+        .remax {
+            padding-left: 5px;
+        }
+
+        .power-bank h5 {
+            left: 20px;
+        }
+
+        .seller_box {
+            height: 210px;
+        }
+
+        .text {
+            font-size: 12px;
+        }
+
+        .text2 {
+            font-size: 11px;
+        }
+
+        .comp_box {
+            height: 210px;
+        }
+
+        .Foooter_left {
+            margin-top: 20px;
+        }
+
+        .Foooter_left img {
+            width: 130px;
+        }
+
+        .Foooter_center p {
+            font-size: 14px;
+            margin-top: 15px;
+        }
+
+        .footer_search {
+            height: 40px;
+        }
+
+        .footer_btn {
+            height: 40px;
+            font-size: 14px;
+        }
+
+        .Foooter_right i {
+            font-size: 40px;
+        }
+
+        .fcbk {
+            font-size: 35px !important;
+        }
+
+        .footer_titles {
+            margin-top: 15px;
+        }
+
+        .footer_title {
+            font-size: 14px;
+        }
+
+        .Foooter_right a {
+            margin-right: 40px;
+            margin-top: 15px;
+        }
+    }
+
+    @media(max-width: 400px) {
+        .apple_topic {
+            margin: 10px 0 30px;
+            font-size: 35px;
+            line-height: 45px;
+        }
+
+        .carousel-indicators {
+            margin-bottom: 170px !important;
+        }
+
+        .apple_title {
+            font-size: 15px;
+            width: 170px;
+            margin: 0 auto;
+        }
+
+        .watch p {
+            font-size: 12px;
+            line-height: 0px;
+            width: 40px;
+            height: 40px;
+        }
+
+        .airpods p {
+            font-size: 12px;
+            line-height: 0px;
+            width: 40px;
+            height: 40px;
+            top: 10px;
+            left: 10px;
+        }
+
+        .power-bank p {
+            font-size: 12px;
+            line-height: 0px;
+            width: 40px;
+            height: 40px;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .remax p {
+            font-size: 12px;
+            line-height: 0px;
+            width: 40px;
+            height: 40px;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .watch h5 {
+            font-size: 13px;
+            line-height: 20px;
+        }
+
+        .airpods h5 {
+            font-size: 13px;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .power-bank h5 {
+            font-size: 13px;
+        }
+
+        .remax h5 {
+            font-size: 13px;
+        }
+
+        .watchs {
+            margin-top: 26px;
+        }
+
+        .watch_title {
+            margin-top: 32px;
+        }
+
+        .power-bank p {
+            left: 20px;
+        }
+
+        .remax {
+            padding-left: 5px;
+        }
+
+        .power-bank h5 {
+            left: 20px;
+        }
+
+        .seller_box {
+            height: 190px;
+        }
+
+        .comp_box {
+            height: 190px;
+        }
+
+        .comp_text {
+            line-height: 12px;
+        }
+
+        .Foooter_left {
+            margin-top: 15px;
+        }
+
+        .Foooter_left img {
+            width: 110px;
+        }
+
+        .Foooter_center p {
+            font-size: 12px;
+            margin-top: 15px;
+        }
+
+        .footer_search {
+            height: 35px;
+        }
+
+        .footer_btn {
+            height: 35px;
+            font-size: 12px;
+        }
+
+        .Foooter_right i {
+            font-size: 30px;
+        }
+
+        .fcbk {
+            font-size: 25px !important;
+        }
+
+        .footer_titles {
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+
+        .footer_title {
+            font-size: 12px;
+        }
+
+        .Foooter_right a {
+            margin-right: 40px;
+            margin-top: 15px;
+        }
+
+    }
+
+    @media(max-width: 355px) {
+        .apple_topic {
+            font-size: 30px;
+            line-height: 45px;
+        }
+
+        .watch_title {
+            margin-top: 20px;
+        }
+
+        .power-bank p {
+            left: 20px;
+        }
+
+        .remax {
+            padding-left: 5px;
+        }
+
+        .power-bank h5 {
+            left: 20px;
+        }
+
+        .seller_box {
+            height: 170px;
+        }
+
+        .text {
+            font-size: 10px;
+        }
+
+        .text2 {
+            font-size: 9px;
+        }
+
+        .comp_box {
+            height: 170px;
+        }
+
+        .Foooter_left {
+            margin-top: 15px;
+        }
+
+        .Foooter_left img {
+            width: 110px;
+        }
+
+        .Foooter_center p {
+            font-size: 12px;
+            margin-top: 15px;
+        }
+
+        .footer_search {
+            height: 30px;
+        }
+
+        .footer_btn {
+            height: 30px;
+            font-size: 12px;
+        }
+
+        .Foooter_right i {
+            font-size: 23px;
+        }
+
+        .fcbk {
+            font-size: 20px !important;
+        }
+
+        .footer_titles {
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+
+        .footer_title {
+            font-size: 12px;
+        }
+
+        .Foooter_right a {
+            margin-right: 50px;
+            margin-top: 15px;
+        }
+        .comp_box1{
+            padding-bottom: 0px;
+        }
+        
+    }
+
+    @media(max-width: 320px) {
+        .CP_1{
+            padding-bottom: 5px;
+        }
+        .comp_box1{
+            padding-bottom: 12px;
+        }
+        .apple_topic {
+            margin: 10px 0 30px;
+            font-size: 25px;
+            line-height: 35px;
+        }
+
+        .apple_title {
+            font-size: 11px;
+            width: 130px;
+            margin: 0 auto;
+            padding: 13px 35px;
+        }
+
+        .carousel-indicators {
+            margin-bottom: 140px !important;
+        }
+
+        #bot {
+            margin: 0 15px;
+        }
+
+        .watch p {
+            font-size: 12px;
+            line-height: 0px;
+            width: 40px;
+            height: 40px;
+        }
+
+        .airpods p {
+            font-size: 12px;
+            line-height: 0px;
+            width: 40px;
+            height: 40px;
+            top: 10px;
+            left: 10px;
+        }
+
+        .power-bank p {
+            font-size: 12px;
+            line-height: 0px;
+            width: 40px;
+            height: 40px;
+            bottom: 10px;
+            left: 20px;
+        }
+
+        .remax p {
+            font-size: 12px;
+            line-height: 0px;
+            width: 40px;
+            height: 40px;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .watch h5 {
+            font-size: 13px;
+            line-height: 20px;
+        }
+
+        .airpods h5 {
+            font-size: 13px;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .power-bank h5 {
+            font-size: 11px;
+            margin-left: 10px;
+        }
+
+        .remax {
+            padding-left: 5px;
+        }
+
+        .remax h5 {
+            font-size: 11px;
+        }
+
+        .watchs {
+            margin-top: 26px;
+        }
+
+        .seller_box {
+            height: 150px;
+        }
+
+        .seller_text {
+            bottom: 25px;
+        }
+
+        .seller_text2 {
+            bottom: 15px;
+        }
+
+        .Foooter_left {
+            margin-top: 10px;
+        }
+
+        .Foooter_left img {
+            width: 90px;
+        }
+
+        .Foooter_center p {
+            font-size: 10px;
+            margin-top: 10px;
+        }
+
+        .footer_search {
+            height: 25px;
+        }
+
+        .footer_btn {
+            height: 25px;
+            font-size: 10px;
+        }
+
+        .Foooter_right i {
+            font-size: 17px;
+        }
+
+        .fcbk {
+            font-size: 15px !important;
+        }
+
+        .footer_titles {
+            margin-top: 7px;
+            margin-bottom: 20px;
+        }
+
+        .footer_title {
+            font-size: 10px;
+        }
+
+        .Foooter_right a {
+            margin-right: 50px;
+            margin-top: 10px;
+        }
     }
-
-    .fixed-top {
-        height: 50px;
-        background-color: var(--back);
-    }
-
-    .sirch {
-        appearance: none;
-        display: none;
-    }
-
-    .logo {
-        text-align: center;
-    }
-
-    .intr {
-        display: none;
-    }
-
-    .carousel-indicators {
-        margin-bottom: 320px !important;
-    }
-
-    .apple_topic {
-        margin-top: 50px;
-    }
-
-    .airpods h5 {
-        font-size: 22px;
-        bottom: 15px;
-    }
-
-    .power-bank h5 {
-        font-size: 22px;
-    }
-
-    .remax h5 {
-        font-size: 22px;
-    }
-
-    .airpods {
-        margin-top: 10px;
-    }
-
-    .comp_box {
-        background-size: 100%;
-    }
-
-    .ps_text {
-        text-align: center;
-    }
-
-    .ps_title {
-        text-align: center;
-        height: 50px;
-    }
-    .seller_box {
-        height: 330px;
-    }
-    .seller_box4,
-    .seller_box3{
-        margin-top: 20px;
-    }
-    .footer{
-        height: 100%;
-    }
-    .Foooter_right a{
-        margin-left: 0;
-        margin-right: 40px;
-        margin-top: 25px;
-    }
-    .footer_titles{
-        justify-content: start; 
-        margin-bottom: 40px;      
-    }
-    .footer_title{
-         margin-right: 35px;
-    }
-}
-
-@media(max-width: 770px) {
-    .apple_topic {
-        margin-bottom: 70px;
-    }
-
-    .right {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .carousel-indicators {
-        margin-bottom: 290px !important;
-    }
-    .seller_box {
-        height: 300px;
-    }
-    .comp_box{
-        height: 250px;
-    }
-    .Foooter_right i{
-        font-size: 45px;
-
-    }
-    .Foooter_right a{
-        margin-right: 45px;
-    }
-}
-
-@media(max-width: 580px) {
-    .apple_title {
-        width: 190px;
-        margin: 0 auto;
-    }
-
-    .apple {
-        margin-top: 0;
-        margin-bottom: 10px;
-    }
-
-    .carousel-indicators {
-        margin-bottom: 200px !important;
-    }
-
-    .apple_topic {
-        margin: 10px 0 30px;
-        font-size: 40px;
-        line-height: 55px;
-    }
-    .seller_box {
-        height: 270px;
-    }
-}
-
-@media(max-width:530px) {
-    .watch h5 {
-        font-size: 19px;
-    }
-
-    .watch p {
-        font-size: 18px;
-        width: 60px;
-        height: 60px;
-    }
-
-    .airpods h5 {
-        font-size: 19px;
-        bottom: 15px;
-        left: 15px;
-    }
-
-    .airpods p {
-        font-size: 18px;
-        line-height: 70px;
-        width: 60px;
-        height: 60px;
-        top: 15px;
-        left: 15px;
-    }
-
-    .power-bank h5 {
-        font-size: 19px;
-        top: 15px;
-        left: 15px;
-    }
-
-    .remax h5 {
-        font-size: 19px;
-        top: 15px;
-        left: 15px;
-    }
-
-    .power-bank p {
-        bottom: 15px;
-        left: 15px;
-        font-size: 18px;
-        line-height: 70px;
-        width: 60px;
-        height: 60px;
-    }
-
-    .power-bank p {
-        left: 15px;
-        font-size: 18px;
-        line-height: 70px;
-        width: 60px;
-        height: 60px;
-    }
-
-    .remax p {
-        left: 15px;
-        font-size: 18px;
-        line-height: 50px;
-        width: 60px;
-        height: 60px;
-    }
-
-    .power-bank p {
-        left: 20px;
-    }
-
-    .remax {
-        padding-left: 5px;
-    }
-
-    .power-bank h5 {
-        left: 20px;
-    }
-    .seller_box {
-        height: 240px;
-    }
-    .text{
-        font-size: 14px;
-    }
-    .comp_box{
-        height: 230px;
-    }
-    .Foooter_left img{
-        width: 150px;
-    }
-    .Foooter_center p {
-        font-size: 16px;
-        margin-top: 20px;
-    }
-    .footer_search{
-        height: 45px;
-    }
-    .footer_btn{
-        height: 45px;
-        font-size: 16px;
-    }
-    .Foooter_right i{
-        font-size: 45px;
-    }
-    .fcbk{
-        font-size: 40px !important;
-    }
-    .footer_titles{
-        margin-top: 20px;
-    }
-    .footer_title{
-        font-size: 16px;
-    }
-}
-
-@media(max-width: 470px) {
-    .watch p {
-        font-size: 16px;
-        line-height: 0px;
-        width: 50px;
-        height: 50px;
-    }
-
-    .airpods p {
-        font-size: 16px;
-        line-height: 0px;
-        width: 50px;
-        height: 50px;
-        top: 10px;
-        left: 10px;
-    }
-
-    .power-bank p {
-        font-size: 16px;
-        line-height: 0px;
-        width: 50px;
-        height: 50px;
-        bottom: 10px;
-        left: 10;
-    }
-
-    .remax p {
-        font-size: 16px;
-        line-height: 0px;
-        width: 50px;
-        height: 50px;
-        bottom: 10px;
-        left: 10px;
-    }
-
-    .watch h5 {
-        font-size: 17px;
-        line-height: 25px;
-    }
-
-    .airpods h5 {
-        font-size: 17px;
-        bottom: 10px;
-        left: 10px;
-    }
-
-    .power-bank h5 {
-        font-size: 17px;
-        top: 10px;
-        left: 10px;
-    }
-
-    .remax h5 {
-        font-size: 17px;
-        top: 10px;
-        left: 10px;
-    }
-
-    .watch h5 {
-        bottom: 10px;
-    }
-
-    .power-bank p {
-        left: 20px;
-    }
-
-    .remax {
-        padding-left: 5px;
-    }
-
-    .power-bank h5 {
-        left: 20px;
-    }
-    .seller_box {
-        height: 210px;
-    }
-    .text{
-        font-size: 12px;
-    }
-    .text2{
-        font-size: 11px;
-    }
-    .comp_box{
-        height: 210px;
-    }
-    .Foooter_left{
-        margin-top: 20px;
-    }
-    .Foooter_left img{        
-        width: 130px;
-    }
-    .Foooter_center p {
-        font-size: 14px;
-        margin-top: 15px;
-    }
-    .footer_search{
-        height: 40px;
-    }
-    .footer_btn{
-        height: 40px;
-        font-size: 14px;
-    }
-    .Foooter_right i{
-        font-size: 40px;
-    }
-    .fcbk{
-        font-size: 35px !important;
-    }
-    .footer_titles{
-        margin-top: 15px;
-    }
-    .footer_title{
-        font-size: 14px;
-    }
-    .Foooter_right a{
-        margin-right: 40px;
-        margin-top: 15px;
-   }
-}
-
-@media(max-width: 400px) {
-    .apple_topic {
-        margin: 10px 0 30px;
-        font-size: 35px;
-        line-height: 45px;
-    }
-
-    .carousel-indicators {
-        margin-bottom: 170px !important;
-    }
-
-    .apple_title {
-        font-size: 15px;
-        width: 170px;
-        margin: 0 auto;
-    }
-
-    .watch p {
-        font-size: 12px;
-        line-height: 0px;
-        width: 40px;
-        height: 40px;
-    }
-
-    .airpods p {
-        font-size: 12px;
-        line-height: 0px;
-        width: 40px;
-        height: 40px;
-        top: 10px;
-        left: 10px;
-    }
-
-    .power-bank p {
-        font-size: 12px;
-        line-height: 0px;
-        width: 40px;
-        height: 40px;
-        bottom: 10px;
-        left: 10px;
-    }
-
-    .remax p {
-        font-size: 12px;
-        line-height: 0px;
-        width: 40px;
-        height: 40px;
-        bottom: 10px;
-        left: 10px;
-    }
-
-    .watch h5 {
-        font-size: 13px;
-        line-height: 20px;
-    }
-
-    .airpods h5 {
-        font-size: 13px;
-        bottom: 10px;
-        left: 10px;
-    }
-
-    .power-bank h5 {
-        font-size: 13px;
-    }
-
-    .remax h5 {
-        font-size: 13px;
-    }
-
-    .watchs {
-        margin-top: 26px;
-    }
-
-    .watch_title {
-        margin-top: 32px;
-    }
-
-    .power-bank p {
-        left: 20px;
-    }
-
-    .remax {
-        padding-left: 5px;
-    }
-
-    .power-bank h5 {
-        left: 20px;
-    }
-    .seller_box {
-        height: 190px;
-    }
-    .comp_box{
-        height: 190px;
-    }
-    .comp_text{
-        line-height: 12px;
-    }
-    .Foooter_left{
-        margin-top: 15px;
-    }
-    .Foooter_left img{        
-        width: 110px;
-    }
-    .Foooter_center p {
-        font-size: 12px;
-        margin-top: 15px;
-    }
-    .footer_search{
-        height: 35px;
-    }
-    .footer_btn{
-        height: 35px;
-        font-size: 12px;
-    }
-    .Foooter_right i{
-        font-size: 30px;
-    }
-    .fcbk{
-        font-size: 25px !important;
-    }
-    .footer_titles{
-        margin-top: 10px;
-        margin-bottom: 30px;
-    }
-    .footer_title{
-        font-size: 12px;
-    }
-    .Foooter_right a{
-        margin-right: 40px;
-        margin-top: 15px;
-   }
-   
-}
-
-@media(max-width: 355px) {
-    .apple_topic {
-        font-size: 30px;
-        line-height: 45px;
-    }
-
-    .watch_title {
-        margin-top: 20px;
-    }
-
-    .power-bank p {
-        left: 20px;
-    }
-
-    .remax {
-        padding-left: 5px;
-    }
-
-    .power-bank h5 {
-        left: 20px;
-    }
-    .seller_box {
-        height: 170px;
-    }
-    .text{
-        font-size: 10px;
-    }
-    .text2{
-        font-size: 9px;
-    }
-    .comp_box{
-        height: 170px;
-    }
-    .Foooter_left{
-        margin-top: 15px;
-    }
-    .Foooter_left img{        
-        width: 110px;
-    }
-    .Foooter_center p {
-        font-size: 12px;
-        margin-top: 15px;
-    }
-    .footer_search{
-        height: 30px;
-    }
-    .footer_btn{
-        height: 30px;
-        font-size: 12px;
-    }
-    .Foooter_right i{
-        font-size: 23px;
-    }
-    .fcbk{
-        font-size: 20px !important;
-    }
-    .footer_titles{
-        margin-top: 10px;
-        margin-bottom: 30px;
-    }
-    .footer_title{
-        font-size: 12px;
-    }
-    .Foooter_right a{
-        margin-right: 50px;
-        margin-top: 15px;
-   }
-}
-
-@media(max-width: 320px) {
-    .apple_topic {
-        margin: 10px 0 30px;
-        font-size: 25px;
-        line-height: 35px;
-    }
-
-    .apple_title {
-        font-size: 11px;
-        width: 130px;
-        margin: 0 auto;
-        padding: 13px 35px;
-    }
-
-    .carousel-indicators {
-        margin-bottom: 140px !important;
-    }
-
-    #bot {
-        margin: 0 15px;
-    }
-
-    .watch p {
-        font-size: 12px;
-        line-height: 0px;
-        width: 40px;
-        height: 40px;
-    }
-
-    .airpods p {
-        font-size: 12px;
-        line-height: 0px;
-        width: 40px;
-        height: 40px;
-        top: 10px;
-        left: 10px;
-    }
-
-    .power-bank p {
-        font-size: 12px;
-        line-height: 0px;
-        width: 40px;
-        height: 40px;
-        bottom: 10px;
-        left: 20px;
-    }
-
-    .remax p {
-        font-size: 12px;
-        line-height: 0px;
-        width: 40px;
-        height: 40px;
-        bottom: 10px;
-        left: 10px;
-    }
-
-    .watch h5 {
-        font-size: 13px;
-        line-height: 20px;
-    }
-
-    .airpods h5 {
-        font-size: 13px;
-        bottom: 10px;
-        left: 10px;
-    }
-
-    .power-bank h5 {
-        font-size: 11px;
-        margin-left: 10px;
-    }
-
-    .remax {
-        padding-left: 5px;
-    }
-
-    .remax h5 {
-        font-size: 11px;
-    }
-
-    .watchs {
-        margin-top: 26px;
-    }
-    .seller_box {
-        height: 150px;
-    }
-    .seller_text{
-        bottom: 25px;
-    }
-    .seller_text2{
-        bottom: 15px;
-    }
-
-    .Foooter_left{
-        margin-top: 10px;
-    }
-    .Foooter_left img{        
-        width: 90px;
-    }
-    .Foooter_center p {
-        font-size: 10px;
-        margin-top: 10px;
-    }
-    .footer_search{
-        height: 25px;
-    }
-    .footer_btn{
-        height: 25px;
-        font-size: 10px;
-    }
-    .Foooter_right i{
-        font-size: 17px;
-    }
-    .fcbk{
-        font-size: 15px !important;
-    }
-    .footer_titles{
-        margin-top: 7px;
-        margin-bottom: 20px;
-    }
-    .footer_title{
-        font-size: 10px;
-    }
-    .Foooter_right a{
-        margin-right: 50px;
-        margin-top: 10px;
-   }
-}

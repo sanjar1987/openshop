@@ -1,3 +1,23 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        --back: #0C0C0C;
+        --text: #FFFFFF;
+        --body: #313131;
+        --btn: #313131;
+        --sch: #313131;
+        --border: #FFF;
+        --text2: #000000;
+        --text3: #fff;
+    }
+
+    body {
+        background-color: var(--body);
+    }
+
+    .logo {
+        background-image: url(../images/Logo.png);
+    }
+}
 @media(max-width:1200px) {
     .promax_apple{
         display: flex;
