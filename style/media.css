@@ -41,6 +41,10 @@
         color: white;
     }
 
+    .CP_box span {
+        background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%);
+        height: 35px;
+    }
 }
 
 @media(max-width:1400px) {
@@ -92,7 +96,7 @@
     .CP_1 {
         padding-bottom: 0;
     }
-
+}
     @media(max-width: 991px) {
         .navbar-toggler {
             display: inline;
@@ -735,19 +739,23 @@
             margin-right: 50px;
             margin-top: 15px;
         }
-        .comp_box1{
+
+        .comp_box1 {
             padding-bottom: 0px;
         }
-        
+
     }
 
-    @media(max-width: 320px) {
-        .CP_1{
+    @media(max-width: 320px)
+     {
+        .CP_1 {
             padding-bottom: 5px;
         }
-        .comp_box1{
+
+        .comp_box1 {
             padding-bottom: 12px;
         }
+
         .apple_topic {
             margin: 10px 0 30px;
             font-size: 25px;

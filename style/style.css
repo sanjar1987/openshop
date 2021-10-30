@@ -200,6 +200,10 @@ p {
     border: var(--border);
 }
 
+.carousel-item {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
 .carousel_btn {
     background-color: #ABABAB !important;
     width: 10px !important;
@@ -628,28 +632,33 @@ p {
 }
 
 /* next start */
-.next{
+.next {
     height: 100px;
 }
-.next_page{
-    text-align: center;    
+
+.next_page {
+    text-align: center;
 }
-.next_page a{
+
+.next_page a {
     text-decoration: none;
     font-family: var(--not400);
     font-size: 18px;
     color: #ABABAB;
     margin: 0 15px 0 15px;
 }
-.next_page a:hover{
+
+.next_page a:hover {
     color: black;
     font-family: var(--not600);
 }
+
 /* footer start */
 .footer {
     background-color: var(--back);
     height: 230px;
 }
+
 .footer_search {
     width: 63%;
     height: 50px;
@@ -658,7 +667,7 @@ p {
 }
 
 .footer_btn {
-    width:37%;
+    width: 37%;
     height: 50px;
     background-color: var(--btn);
     font-family: var(--not400);
@@ -667,48 +676,58 @@ p {
     background: #313131;
     border: 1px solid #FFFFFF;
 }
-.footer_btn:hover{
+
+.footer_btn:hover {
     background: #313131;
     border: 1px solid #FFFFFF;
 }
-.Foooter_left{
+
+.Foooter_left {
     margin-top: 30px;
 }
-.Foooter_center p{
+
+.Foooter_center p {
     font-family: var(--not400);
     font-size: 18px;
     margin-top: 30px;
     color: white;
     margin-bottom: 5px;
 }
-.Foooter_right{
+
+.Foooter_right {
     display: flex;
     align-items: flex-end;
     align-items: stretch;
 }
-.Foooter_right i{
+
+.Foooter_right i {
     font-size: 50px;
-    color: white;   
+    color: white;
 }
-.Foooter_right a{
-     margin-left: 25px;
+
+.Foooter_right a {
+    margin-left: 25px;
 }
-.fcbk{
+
+.fcbk {
     font-size: 45px !important;
 }
-.footer_titles{
+
+.footer_titles {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
     list-style: none;
 }
-.footer_title{
+
+.footer_title {
     text-decoration: none;
     color: white;
     font-family: var(--not400);
-    font-size: 18px;    
+    font-size: 18px;
 }
-.next_page{
+
+.next_page {
     height: 100%;
     display: flex;
     align-items: center;

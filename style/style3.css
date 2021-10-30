@@ -35,8 +35,13 @@ p {
     margin: 0;
 }
 
+
 .promax {
     margin-top: 70px;
+}
+
+.promax_apple{
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
 }
 
 .promax_title {
@@ -64,6 +69,7 @@ p {
 }
 
 .promax_apple img{
+    height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
